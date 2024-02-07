@@ -108,22 +108,59 @@ video {
         
 
 .Excel {
-    color: #FFFFFF;
-    font-size: 22px;
+	color: #FFFFFF;    
+    font-size: 23px;
     display: flex;
     height: auto;
     width: auto;
-/*    justify-content: center;*/
-/*    align-items: center;*/
-    font-weight:800;
+    justify-content: center;
+    align-items: center;
+    font-family: "Arial";
     text-transform: uppercase;
+    font-weight: 600;
+}
+#table td:nth-child(1){
+	padding-top: 0px; /* 上面間距 */
+	padding-bottom: 0px; /* 下面間距 */
+	padding-left: 30px; /* 左邊間距 */
+    padding-right: 60px; /* 右邊間距 */
+	height: 0px; /* 調整高度值 */
+    position: relative; /* 啟用定位 */
+    top: 15px; /* 向上偏移指定像素 */
+   
+}     
+#table td:nth-child(2){
+	padding-top: 0px; /* 上面間距 */
+	padding-bottom: 20px; /* 下面間距 */
+	padding-left: 30px; /* 左邊間距 */
+    padding-right: 20px; /* 右邊間距 */
+	height: 0px; /* 調整高度值 */
+    position: relative; /* 啟用定位 */
+    top: 22px; /* 向上偏移指定像素 */
+}
+#table td:nth-child(3){
+	padding-top: 0px; /* 上面間距 */
+	padding-bottom: 0px; /* 下面間距 */
+	padding-left: 30px; /* 左邊間距 */
+    padding-right: 20px; /* 右邊間距 */
+	height: 0px; /* 調整高度值 */
+    position: relative; /* 啟用定位 */
+    top: 15px; /* 向上偏移指定像素 */
+}
+#table td:nth-child(4){
+	padding-top: 0px; /* 上面間距 */
+	padding-bottom: 0px; /* 下面間距 */
+	padding-left: 30px; /* 左邊間距 */
+    padding-right: 20px; /* 右邊間距 */
+	height: 0px; /* 調整高度值 */
+    position: relative; /* 啟用定位 */
+    top: 15px; /* 向上偏移指定像素 */
 }
 	    
 		
 	 #table {
 	 
     border-collapse: separate;
-    border-spacing: 12.3mm 6.9mm;
   } 
 	#table td:nth-child(2),
     #table td:nth-child(3),
@@ -145,7 +182,7 @@ video {
  
 
 	
-	<div class="Excel" style="padding-top: 19px;padding-left: 58px;">
+	<div class="Excel" style="padding-top: 10px;padding-left: 25px;">
   <table id="table">
         <thead>
             <tr>
