@@ -98,9 +98,9 @@ video {
     font: inherit;
     font-size: 100%;
     vertical-align: baseline;
-    font-family: 'Arial';
-	font-weight: 600;
-}
+    font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+    font-weight: 600;
+	}
   
 	  	
 	  
@@ -124,22 +124,33 @@ video {
 #table td:nth-child(1) {
 	padding-top: 0px; /* 上面間距 */
 	padding-bottom: 0px; /* 下面間距 */
-	padding-left: 30px; /* 左邊間距 */
+	padding-left: 0px; /* 左邊間距 */
     padding-right: 0px; /* 右邊間距 */
-	height: 40px; /* 調整高度值 */
+	height: 48px; /* 調整高度值 */
     vertical-align: top; /* 將內容置頂 */
 	position: relative; /* 啟用定位 */
-    top: 13px; /* 向上偏移指定像素 */
-   
+    top: 10px; /* 向上偏移指定像素 */
 }
 
 /* 調整文字列的間距 */
-#table td:nth-child(2),
-#table td:nth-child(3),
-#table td:nth-child(4){
-	padding-left: 125px; /* 左邊間距 */
+#table td:nth-child(2){
+	padding-left: 10px; /* 左邊間距 */
     padding-right: 120px; /* 右邊間距 */
-    padding-top: 17px; /* 上面間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+	
+}
+#table td:nth-child(3){
+	padding-left: 215px; /* 左邊間距 */
+    padding-right: 120px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
+    padding-bottom: 0px; /* 下面間距 */
+	
+}
+#table td:nth-child(4){
+	padding-left: 145px; /* 左邊間距 */
+    padding-right: 120px; /* 右邊間距 */
+    padding-top: 0px; /* 上面間距 */
     padding-bottom: 0px; /* 下面間距 */
 	
 }
@@ -158,18 +169,13 @@ video {
 #table td:nth-child(5) {
     text-align: center;
 }	
-	
-/* 調整文字列的間距 */
-#table td:nth-child(2) {
-    padding-left: 5px; /* 左邊間距 */
-    padding-right: 0px; /* 右邊間距 */
-    padding-top: 0px; /* 上面間距 */
+#table td:nth-child(2),
+#table td:nth-child(3),
+#table td:nth-child(4),
+#table td:nth-child(5){
+	padding-top: 10px; /* 上面間距 */
     padding-bottom: 0px; /* 下面間距 */
-}	
 	
-#table td:nth-child(3) {
-    padding-left: 375px; /* 左邊間距 */
-    
 }
 	
 	#table img {
@@ -190,7 +196,7 @@ video {
  
 
 	
-	<div class="Excel" style="padding-top: 333px;padding-left: 310px;">
+	<div class="Excel" style="padding-top: 336px;padding-left: 330px;">
   <table id="table">
         <thead>
             <tr>
